@@ -7,5 +7,7 @@
 </script>
 
 <main>
-    Work in progress...
+    <div class="flex justify-center border-2">
+        Work in progress...
+    </div>
 </main>

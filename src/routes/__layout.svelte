@@ -11,19 +11,18 @@
 </style>
 
 <main>
-    <div class="flex flex-col h-screen justify-between text-gray-400 font-bpfont">
+    <div class="flex flex-col h-screen justify-between text-gray-400 font-bpfont content-center">
         <header>
-            <div class="flex my-5 items-center">
-                <div class="mx-10"><img src={bpLogo} alt="Logo BP Garden Designer" loading="lazy" decoding="async" /></div>
+            <div class="flex my-5 items-center justify-center">
+                <div><img src={bpLogo} alt="Logo BP Garden Designer" loading="lazy" decoding="async" /></div>
                 <div class="flex mx-20 items-end">
                     <span class="text-2xl">Barbara Ponti</span><span class="text-xl">&nbsp; -  garden designer</span>
                 </div>
             </div>
-            
             <nav class="text-center my-10 space-x-10 text-sm">
                 <a href="/">Home</a>
                 <a href="/about">About me</a>
-                <a href="/">Bottega</a>
+                <a href="/bottega">Bottega</a>
                 <a href="/">Servizi</a>
                 <a href="/">Giardini</a>
                 <a href="/">I like</a>
@@ -34,14 +33,10 @@
         <div class="text-sm m-5">
             <slot></slot>
         </div>
-        <footer class="relative text-sm m-5">
-            <div class="absolute right-1 bottom-0">
-                <div class="flex items-end space-x-5">
-                <a href="https://www.instagram.com/bp.garden.designer/" target="new"><img src={instagramLogo} alt="BP Garden Designer on Instagram" loading="lazy" decoding="async" /></a>
-                <a href="http://www.pinterest.com/centox100verde/" target="new"><img src={pinterestLogo} alt="BP Garden Designer on Pinterest" loading="lazy" decoding="async" /></a>
-                <a href="http://www.facebook.com/barbara.ponti.79" target="new"><img src={facebookLogo} alt="BP Garden Designer on Facebook" loading="lazy" decoding="async" /></a>
-                </div>
-            </div>
+        <footer class="flex text-sm mb-5 justify-center">
+            <a href="https://www.instagram.com/bp.garden.designer/" target="_blank"><img src={instagramLogo} alt="BP Garden Designer on Instagram" loading="lazy" decoding="async" /></a>
+            <a href="http://www.pinterest.com/centox100verde/" target="_blank"><img src={pinterestLogo} alt="BP Garden Designer on Pinterest" loading="lazy" decoding="async" /></a>
+            <a href="http://www.facebook.com/barbara.ponti.79" target="_blank"><img src={facebookLogo} alt="BP Garden Designer on Facebook" loading="lazy" decoding="async" /></a>
         </footer>
     </div>
 </main>
