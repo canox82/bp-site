@@ -15,7 +15,7 @@
             Nei vari progetti mi piace studiare il “ mood ”, lo spirito personale del luogo, unendo le conoscenze botaniche, la ricerca costante di semplicità nel design ma ricca di contenuti, l’uso di materiali ed arredi per contribuire a creare giardini e luoghi di carattere; fondamentalmente sereni e gioiosi da vivere. <br/>
         </div>
         <div mx-5>
-            <img src={imgBarbara} alt="Barbara Ponti" loading="lazy" decoding="async" />
+            <img class="rounded-lg" src={imgBarbara} alt="Barbara Ponti" loading="lazy" decoding="async" />
         </div>
     </div>
 </main>

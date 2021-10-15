@@ -12,7 +12,7 @@
 </script>
 
 <main>
-    <div class="flex justify-center">
+    <div class="flex justify-center mb-3">
         <div class="flex flex-col">
             <div class="flex flex-row gap-x-2 items-center">
                 <div class="w-3/5 m-2">
@@ -42,15 +42,23 @@
                 </div>
                 <div>
                     <!-- immagini negozio che ruotano -->
-                    <img src={imgVetrina} alt="Vetrina Bottega Barbara Ponti Gardeb Designer" loading="lazy" decoding="async" width="400"/>
+                    <img class="rounded-lg" src={imgVetrina} alt="Vetrina Bottega Barbara Ponti Gardeb Designer" loading="lazy" decoding="async" width="400" />
                 </div>
             </div>
             <div class="flex flex-row gap-x-2">
                 <!-- 4 immagini piccole di oggetti -->
-                <img src={oggBottega01} alt="Oggetti di design Barbara Ponti Garden Designer" loading="lazy" decoding="async" />
-                <img src={oggBottega02} alt="Oggetti di design Barbara Ponti Garden Designer" loading="lazy" decoding="async" />
-                <img src={oggBottega03} alt="Oggetti di design Barbara Ponti Garden Designer" loading="lazy" decoding="async" />
-                <img src={oggBottega04} alt="Oggetti di design Barbara Ponti Garden Designer" loading="lazy" decoding="async" />
+                <div class="w-1/4">
+                    <img class="rounded-lg h-full w-full" src={oggBottega01} alt="Oggetti di design Barbara Ponti Garden Designer" loading="lazy" decoding="async" />
+                </div>
+                <div class="w-1/4">
+                    <img class="rounded-lg h-full w-full" src={oggBottega02} alt="Oggetti di design Barbara Ponti Garden Designer" loading="lazy" decoding="async" />
+                </div>
+                <div class="w-1/4">
+                    <img class="rounded-lg h-full w-full" src={oggBottega03} alt="Oggetti di design Barbara Ponti Garden Designer" loading="lazy" decoding="async" />
+                </div>
+                <div class="w-1/4">
+                    <img class="rounded-lg h-full w-full" src={oggBottega04} alt="Oggetti di design Barbara Ponti Garden Designer" loading="lazy" decoding="async" />
+                </div>
             </div>
         </div>
     </div>

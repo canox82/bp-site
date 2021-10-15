@@ -23,14 +23,14 @@
                 <a href="/">Home</a>
                 <a href="/about">About me</a>
                 <a href="/bottega">Bottega</a>
-                <a href="/">Servizi</a>
-                <a href="/">Giardini</a>
-                <a href="/">I like</a>
-                <a href="/">Video</a>
-                <a href="/">Contatti</a>
+                <a href="/working">Servizi</a>
+                <a href="/working">Giardini</a>
+                <a href="/working">I like</a>
+                <a href="/working">Video</a>
+                <a href="/working">Contatti</a>
             </nav>
         </header>
-        <div class="text-sm m-5">
+        <div class="text-sm mx-auto">
             <slot></slot>
         </div>
         <footer class="flex text-sm mb-5 justify-center">
